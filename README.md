@@ -1,4 +1,4 @@
-# equation-solver
+# Simultaneous Equation Solver
 
 A script that solves systems of equations with any number of variables.
 
