@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Open+Sans:400,700">
+  <link rel="stylesheet" href="styles/main.min.css">
+  <title>Simultaneous Equation Solver</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h2 class="text-center">Simultaneous Equation Solver</h2>
+      <hr>
+      <div id="selectNumber">
+        Please enter the number of variables: <input type="number" id="number" min="1"> <button class="btn btn-primary" onclick="showInputs();">Go!</button>
+      </div>
+      <div id="inputs" class="hidden">
+        <div id="info" class="text-center">
+          <h3>Please enter coefficients and constants:</h3><br>
+          (Any boxes left blank will be autofilled with 0)<br>
+          <button class="btn btn-primary" onclick="solveEq();">Solve!</button>
+        </div>
+        <hr>
+
+      </div>
+      <div id="result" class="hidden">
+        <a href=".">Try another set of equations</a><br>
+        <hr>
+        <div id="solution">
+          <h3>Solution</h3>
+        </div>
+        <hr>
+        <div id="equations">
+          <h3>Equations</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="scripts/solve.js" charset="utf-8"></script>
+  <script src="scripts/main.js" charset="utf-8"></script>
+</body>
+</html>
