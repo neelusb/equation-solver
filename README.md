@@ -14,4 +14,4 @@ A<sup>-1</sup> A **x** = A<sup>-1</sup> **v**
 
 **x** = A<sup>-1</sup> **v**
 
-A<sup>-1</sup> is then found by diving the adjugate of A by the determinant of A. The adjugate is found by transposing the cofactor matrix of A, and the determinant is found recursively by using minors.
+A<sup>-1</sup> is then found by diving the adjugate of A by the determinant of A. The adjugate is found by transposing the cofactor matrix of A, which is found using determinants of minors, and the determinant is found recursively by using minors.
