@@ -3,7 +3,8 @@
 A script that solves systems of equations with any number of variables.
 
 <h2 class="text-center">How it works</h2>
-<b>Please see <a href="https://gh.sbneelu.io/equation-solver">https://gh.sbneelu.io/equation-solver</a> for this explanation in a better format as GitHub displays matrices and vectors as regular tables.
+<b>Please see <a href="https://gh.sbneelu.io/equation-solver">https://gh.sbneelu.io/equation-solver</a> for this explanation in a better format as GitHub displays matrices and vectors as regular tables.</b>
+<br>
 <p>
   The coefficients are put into a matrix A, the variables into a vector <b>v</b> and the constants into a vector <b>c</b>.<br>
   i.e. A<b>v</b> = <b>c</b><br>
